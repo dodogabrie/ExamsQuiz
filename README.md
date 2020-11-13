@@ -40,7 +40,9 @@ Run the file "tex_quiz.py" in the same way as the previous one:
 
 `python3 tex_quiz.py -c chapters -n numquestion`
 
-This will write in the "esame"'s folder the file "domande.tex" which contains the question that you chose.
+This will write in the "esame"'s folder the file "domande.tex" which contains the question that you chose. 
+
+After that just compile the master.tex file with your LaTex compiler and visualize your quiz in pdf.
 
 # Structure Example
 
