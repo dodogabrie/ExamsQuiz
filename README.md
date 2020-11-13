@@ -8,7 +8,9 @@ Open a terminal and type:
 ## How to use
 
 ExamsQuiz
+|
 +-- _esame
+|
 +-- _domande
     +-- _1_CapName
     |   +-- Quest1.tex
