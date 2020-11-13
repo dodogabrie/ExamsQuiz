@@ -31,7 +31,7 @@ Run the file "py_quiz.py" in the following way:
 
 `python3 py_quiz.py -c chapters -n numquestion`
 
-- chapters: the numbers of the chapter folders or the names of the folders themeselves (you can pass more folder here)
+- chapters: the numbers of the chapter folders or the names of the folders themeselves (you can pass more folders here)
 - numquestion: the number of question that you wanna generate.
 
 #### LaTex sequence
