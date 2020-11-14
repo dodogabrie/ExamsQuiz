@@ -16,11 +16,8 @@ def execute(chap):
     file_path = MAIN_DIR + chap
 
     # Get the new question
-    try:
-        quest = IO_gestion.new_quest()
-        assert type(quest)==str
-    except:
-        print('Process stopped')
+    quest = IO_gestion.new_quest()
+    assert type(quest)==str
 
     # extracting file names in file_path into the list "files"
     files = [f for f in os.listdir(file_path) if os.path.isfile(os.path.join(file_path, f))]
